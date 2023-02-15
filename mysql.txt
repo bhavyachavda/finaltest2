@@ -1,0 +1,15 @@
+create table users19(
+recid bigint(20) auto_increment primary key,
+code char(6),
+firstname varchar(100),
+lastname varchar(100),
+email varchar(100),
+gender char(1),
+hobbies varchar(255),
+photo varchar(100),
+country varchar(30),
+isactive char(1),
+dateadded datetime,
+dateupdated datetime,
+endeffdt datetime
+)
