@@ -8,7 +8,7 @@ gender char(1),
 hobbies varchar(255),
 photo varchar(100),
 country varchar(30),
-isactive char(1),
+isactive bool default true,
 dateadded datetime,
 dateupdated datetime,
 endeffdt datetime
